@@ -7,4 +7,5 @@ class Vehiculo:
 
     def imprimir(self):
         print("Combustible: " + self.combustible + "Caballos: " + self.caballos)
+        print("Pienso: " + self.combustible + "Gramos: " + self.caballos)
 
