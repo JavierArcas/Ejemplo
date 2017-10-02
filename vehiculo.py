@@ -4,11 +4,11 @@ class Vehiculo:
     direccionAsistida = None
     abs = None
 
-    def __init__(self, combustible, caballos, direccionasistida, ABS):
+    def __init__(self, combustible, caballos, direccionasistida, abs):
         self.combustible = combustible
         self.caballos = caballos
         self.direccionAsistida = direccionasistida
-        self.abs = ABS
+        self.abs = abs
 
     def imprimir(self):
         print("Combustible: " + self.combustible + "Caballos: " + self.caballos)
